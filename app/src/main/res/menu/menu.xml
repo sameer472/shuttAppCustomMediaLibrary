@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="camara"
+        android:id="@+id/camara"
+        android:icon="@drawable/ic_linked_camera_black_24dp"
+        app:showAsAction="always"></item>
+    <item
+        android:title="crop"
+        android:id="@+id/crop"
+        android:icon="@drawable/ic_crop_black_24dp"
+        app:showAsAction="always"></item>
+
+    <item
+        android:title="delete"
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="always"></item>
+
+</menu>

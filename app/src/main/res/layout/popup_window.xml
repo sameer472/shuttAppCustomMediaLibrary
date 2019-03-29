@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+    android:background="#eaeded">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:id="@+id/gallaryIcon"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gallary"
+        android:layout_height="50dp" />
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:text="gallary."/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:id="@+id/camaraIcon"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/camera"
+        android:layout_height="50dp" />
+1
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:textSize="12sp"
+        android:text="camara."/>
+    </LinearLayout>
+
+  <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:id="@+id/vidoeIcon"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gallary"
+        android:layout_height="50dp" />
+1
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:textSize="12sp"
+        android:text="videos."/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:id="@+id/audioIcon"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/camera"
+        android:layout_height="50dp" />
+1
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:textSize="12sp"
+        android:text="audios."/>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
